@@ -1,3 +1,4 @@
+// class meja
 public class Meja {
     private int nomorMeja;
     private Pelanggan pelanggan;

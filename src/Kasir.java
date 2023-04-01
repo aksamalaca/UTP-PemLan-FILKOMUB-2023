@@ -28,7 +28,7 @@ public class Kasir {
         System.out.println();
     }
 
-    // untuk menambahkan pelanggan pada meja tertentu
+    // untuk menambahkan pelanggan pada meja tertentu..
     // jika meja kosong tambahkan pelanggan pada meja tersebut
     // jika tidak buatlah keterangan bahwa meja sudah ada pelanggan
     public void tambahPelanggan(int nomorMeja, Pelanggan pelanggan) {

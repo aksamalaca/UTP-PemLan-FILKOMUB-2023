@@ -1,3 +1,4 @@
+// class pelanggan
 public class Pelanggan {
     private String nama;
 
