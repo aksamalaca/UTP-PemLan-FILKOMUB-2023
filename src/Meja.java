@@ -7,11 +7,9 @@ public class Meja {
         this.nomorMeja = nomorMeja;
         this.menu = new Menu[10]; // maksimum 10 pesanan per meja
     }
-
     public int getNomorMeja() {
         return nomorMeja;
     }
-
     public void setNomorMeja(int nomorMeja) {
         this.nomorMeja = nomorMeja;
     }
@@ -44,6 +42,10 @@ public class Meja {
 
     // untuk mengecek apakah meja kosong
     public boolean isKosong() {
-        // EDIT DISINI
+        if(this.pelanggan == null){
+            return true;
+        } else {
+            return false;
+        }
     }
 }
